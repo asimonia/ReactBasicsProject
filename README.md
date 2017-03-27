@@ -9,3 +9,15 @@ This is the Babel extension that allows using jsx without the compile step
 
 ## <script type="text/babel" src="./app.jsx"></script>
 This is where the code will be stored
+
+## React is all about rendering reusable components on the virtual DOM
+React is Declaritive, which is WHAT IS, as opposed to Imperative which is HOW TO.
+A React component must return only a single virtual DOM element.
+JSX is a markup language.  It's easy on the eyes!
+Babel is used to transpile JSX to Javascript.
+
+## Mocking up our Application
+When designing a React application, it’s a good idea to mock up the structure 
+of our app statically, then build interactivity into that mock. In this video 
+we will design our application and start thinking in components.
+
