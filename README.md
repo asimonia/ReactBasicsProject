@@ -27,3 +27,6 @@ Pass and read properties to and from components.
 
 ## PropTypes and DefaultProps
 We can document exactly which properties our components take, and what types they should be.
+
+## Decomposing the Application
+Break down our large application component into several components that can be reused and built independently.
