@@ -21,3 +21,9 @@ When designing a React application, it’s a good idea to mock up the structure
 of our app statically, then build interactivity into that mock. In this video 
 we will design our application and start thinking in components.
 
+## Use props (properties) to customize components
+They allow us to build reusable and customizable components.
+Pass and read properties to and from components.
+
+## PropTypes and DefaultProps
+We can document exactly which properties our components take, and what types they should be.

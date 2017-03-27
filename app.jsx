@@ -1,9 +1,9 @@
 // React Component returing JSX
-function Application() {
+function Application(props) {
 	return (
 		<div className="scoreboard">
 			<div className="header">
-				<h1>Scoreboard</h1>
+				<h1>{props.title}</h1>
 			</div>
 
 			<div className="players">
@@ -34,6 +34,14 @@ function Application() {
 			</div>
 		</div>
 	);
+}
+
+Application.propTypes = {
+	title: React.PropTypes.string,
+}
+
+Application.defaultProps = {
+	title: "Scoreboard",
 }
 
 // Rendering the React component to the Virtual DOM
