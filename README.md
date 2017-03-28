@@ -39,3 +39,9 @@ Stateless Functional Component: A component defined as a function.
 It takes only props as an argument and returns a virtual DOM.
 Component Class: A component definition that can include things
 like state, helper methods and other advanced hooks into the page’s DOM
+
+## Understanding State
+State is data in our application that can change.
+getInitialState: Component method for defining the initial state of your component.
+Flux: A pattern for organizing your state in an application.
+Redux: A popular library for managing application state and state changes.
