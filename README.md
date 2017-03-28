@@ -33,3 +33,9 @@ Break down our large application component into several components that can be r
 
 ## For Loops
 The key property is required on a for-loop
+
+## Creating Component Class
+Stateless Functional Component: A component defined as a function. 
+It takes only props as an argument and returns a virtual DOM.
+Component Class: A component definition that can include things
+like state, helper methods and other advanced hooks into the page’s DOM

@@ -30,21 +30,27 @@ function Header(props) {
 	);
 }
 
+var Counter = React.createClass({
+	propTypes: {
+		score: React.PropTypes.number.isRequired,
+	},
+
+	render: function() {
+		return (
+			<div className="counter">
+				<button className="counter-action decrement"> - </button>
+				<div className="counter-score"> {this.props.score} </div>
+				<button className="counter-action increment"> + </button>
+			</div>	
+		);
+	}
+});
+
 // Counter component has property, which must be a number
 Counter.propTypes = {
 	score: React.PropTypes.number.isRequired,
 };
 
-// Counter component keeps track of score
-function Counter(props) {
-	return (
-		<div className="counter">
-			<button className="counter-action decrement"> - </button>
-			<div className="counter-score"> {props.score} </div>
-			<button className="counter-action increment"> + </button>
-		</div>	
-	);
-}
 
 // Player properties are name (string) and score (number)
 Player.propTypes = {
