@@ -30,3 +30,6 @@ We can document exactly which properties our components take, and what types the
 
 ## Decomposing the Application
 Break down our large application component into several components that can be reused and built independently.
+
+## For Loops
+The key property is required on a for-loop
