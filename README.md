@@ -39,3 +39,20 @@ Babel.js: A compiler that creates standard, compatible JavaScript from code that
 react.js: 				React CORE
 react-dom.js:   		Virtual DOM to real DOM
 babel-browser.min.js: 	Use jsx without a build step
+
+## Mocking up our Application
+When designing a React application, it’s a good idea to mock up the structure of our app statically, then build interactivity into that mock. In this video we will design our application and start thinking in components.
+
+## Properties
+Properties are a critical piece of building componenets.  They allow us to build reusable and customizable components.  We learn how to pass and read props to and from componenets.
+
+{props.title}  You can pass key-value pairs to components.  {} will evaluate expressions.
+
+## PropTypes and DefaultProps
+In react we can document exactly which properties our components take, and what types they should be.
+
+## Decomposing our Application
+In this video you will learn how to break down our large application component into several components that can be reused and built independently. Composing components is a core design philosophy in React.
+
+Composition: A method of combining many smaller or simpler pieces to create a larger piece.
+Decompose: Break a large component in to smaller components that can be composed together.
