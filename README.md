@@ -56,3 +56,6 @@ In this video you will learn how to break down our large application component i
 
 Composition: A method of combining many smaller or simpler pieces to create a larger piece.
 Decompose: Break a large component in to smaller components that can be composed together.
+
+## Loops and Lists in JSX
+Each child in an array or iterator must have a unique key property
