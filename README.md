@@ -59,3 +59,15 @@ Decompose: Break a large component in to smaller components that can be composed
 
 ## Loops and Lists in JSX
 Each child in an array or iterator must have a unique key property
+
+## Creating a Component Class
+The functional components we have been building are easy to reason about, but sometimes we need more
+flexibility.  We learn to create component classes with their own internal states.
+
+Stateless Functional Component: A component defined as a function. 
+It takes only props as an argument and returns a virtual DOM.
+This is not suitable for handling state.
+
+Component Class: A component definition that can include things like state, 
+helper methods and other advanced hooks into the page’s DOM.
+
