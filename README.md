@@ -71,3 +71,7 @@ This is not suitable for handling state.
 Component Class: A component definition that can include things like state, 
 helper methods and other advanced hooks into the page’s DOM.
 
+## Understanding State
+getInitialState: Component method for defining the initial state of your component.
+Flux: A pattern for organizing your state in an application.
+Redux: A popular library for managing application state and state changes.
