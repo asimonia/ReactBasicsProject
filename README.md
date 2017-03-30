@@ -93,3 +93,8 @@ Local Component State: This is state that is used to allow a component to functi
 
 ## Restructuring State
 We will restructure our state in a single location.  We will rebuild one of our stateful components into a simple functional component and concentrate our state in a single location.
+
+
+## Communicating Events
+While data flows down, events and communication flows up.  This completes the loop of events that can
+change data bubbling up and the updated state data flowing back down to be displayed.
