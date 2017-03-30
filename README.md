@@ -75,3 +75,7 @@ helper methods and other advanced hooks into the page’s DOM.
 getInitialState: Component method for defining the initial state of your component.
 Flux: A pattern for organizing your state in an application.
 Redux: A popular library for managing application state and state changes.
+
+## Updating State
+Build a component that will store a player’s score as internal state.
+We will also add buttons that can change the state of our component.
