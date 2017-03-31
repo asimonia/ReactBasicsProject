@@ -100,7 +100,7 @@ While data flows down, events and communication flows up.  This completes the lo
 change data bubbling up and the updated state data flowing back down to be displayed.
 
 ## Building the Statistics Component
-Now that we have our state consolidated in a single place, we can use it to build more components.  We will
+Now that we have our stWe will learn how to initialize state and manipulate the state with our buttons.ate consolidated in a single place, we can use it to build more components.  We will
 build a component that summarizes the data in the game.
 
 ## Adding Players to the Scoreboard
@@ -109,4 +109,4 @@ Inputs in HTML are stateful.
 Controlled Component: An input form is controlled when it’s value is passed to it by the parent component. This requires us to update the passed value when it changes by listening for the onChange event of the input component.
 
 ## Designing a stopwatch
-
+We will learn how to initialize state and manipulate the state with our buttons.
