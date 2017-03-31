@@ -107,3 +107,6 @@ build a component that summarizes the data in the game.
 Inputs in HTML are stateful.  
 
 Controlled Component: An input form is controlled when it’s value is passed to it by the parent component. This requires us to update the passed value when it changes by listening for the onChange event of the input component.
+
+## Designing a stopwatch
+
