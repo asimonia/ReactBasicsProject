@@ -98,3 +98,7 @@ We will restructure our state in a single location.  We will rebuild one of our 
 ## Communicating Events
 While data flows down, events and communication flows up.  This completes the loop of events that can
 change data bubbling up and the updated state data flowing back down to be displayed.
+
+## Building the Statistics Component
+Now that we have our state consolidated in a single place, we can use it to build more components.  We will
+build a component that summarizes the data in the game.
